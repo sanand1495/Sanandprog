@@ -1,0 +1,78 @@
+--Operators constitute the basic building block to any programming language. 
+--Java too provides many types of operators which can be used according to the need to perform various calculations and functions.
+--Roughly there are around 8 operators in java
+
+Types
+------
+1. Airthmetic operator---
+
+**mathematical operators
+**arithmetic operations on the primitive data types  
+** +,-,*,/,%
+
+2.Unary operator----
+----------------
+**need only one operand to perform any operation like increment, decrement, negation, etc. 
+Sub types::
+---------
+a) Uranary minus::  used to convert a positive value to a negative one
+b) NOT’ Operator(!):: used to convert true to false or vice versa.
+c) Increment(++):: increment the value of an integer
+                   1)pre increment (++i)
+				   2) post increment (i++)
+d) Decrement(–)
+e)Bitwise Complement(~):: returns the one’s complement representation of the input value
+
+3. Assignment operators---
+-------------------------
+**used to assign values to a variable.
+syntax:: variable operator value;
+sub types::
+-----------
+a) Simple assignment-- eg: a=10;a=b etc 
+b) Compound assignment --- eg a+=10;a+=b;a*=c etc
+
+4. Relational operators----
+-------------------------
+**used to check for relations between two operands, including equality, greater than, less than, etc
+**syntax:: variable1 relation_operator variable2
+subtypes--
+--------
+a) ‘Equal to’ operator (==)
+b) ‘Not equal to’ Operator(!=)
+c) >,<,>=,<=
+
+5.Logical operators---
+---------------------
+**used to performing logical “AND”, “OR” and “NOT” operations
+subtypes::
+---------
+a) AND Operator ( && ) – if( a && b ) [if true execute else don’t]
+b) OR Operator ( || ) – if( a || b) [if one of them is true execute else don’t]
+c) NOT Operator ( ! ) – !(a<b) [returns false if a is smaller than b]
+
+6. Ternary operator---
+--------------------
+**It’s a one-liner replacement for the if-then-else statement 
+**only conditional operator that takes three operands.
+
+Syntax:; variable = Expression1 ? Expression2: Expression3
+
+7. Bitwise Operators: 
+---------------------
+**These operators are used to perform the manipulation of individual bits of a number.
+**They can be used with any of the integer types. 
+subtypes::
+--------
+a) &, Bitwise AND operator: returns bit by bit AND of input values
+b) |, Bitwise OR operator: returns bit by bit OR of input values.
+c) ^, Bitwise XOR operator: returns bit-by-bit XOR of input values.
+d) ~, Bitwise Complement Operator: This is a unary operator which returns the one’s complement representation of the input value, i.e., with all bits inverted.
+
+8. Shift operators---
+---------------------
+**used to shift the bits of a number left or right,
+
+
+				   
+				   
